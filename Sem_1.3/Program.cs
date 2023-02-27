@@ -1,5 +1,23 @@
-﻿// Задача  6
-Console.WriteLine("Введите число a: ");
-int a = int.Parse(Console.ReadLine());
-if (a % 2 == 0)Console.WriteLine("это четное число");
-else Console.WriteLine("это не четное число");
+﻿// Задача  
+	using System;
+	using System.Collections.Generic;
+	using System.Linq;
+	 
+	class Program
+	{
+	    static void Main(string[] args)
+	    {
+	        Console.Write("Write number 1: ");
+	        int n = int.Parse(Console.ReadLine());
+	        Console.Write("Write number 2: ");
+	        int m = int.Parse(Console.ReadLine());
+	        for (int i = n; i <= m; i++)
+	        {
+	            if (i % 2 == 0) 
+	            {
+	                Console.Write(i + " ");
+	            }
+	        }
+        Console.ReadKey();
+    }
+	}
